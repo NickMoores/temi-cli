@@ -1,0 +1,14 @@
+[package]
+name = "temi"
+version = "0.1.0"
+authors = ["Nick Moores <nick@nickmoores.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "2.33.3"
+reqwest = { version = "0.11", features = ["blocking", "json"] }
+url = "2.2.0"
+serde = { version = "1.0.123", features = ["derive"] }
+rust_decimal = "1.10.1"
